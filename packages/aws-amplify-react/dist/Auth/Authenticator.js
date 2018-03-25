@@ -22,6 +22,10 @@ var _SignIn = require('./SignIn');
 
 var _SignIn2 = _interopRequireDefault(_SignIn);
 
+var _SignInFederated = require('./SignInFederated');
+
+var _SignInFederated2 = _interopRequireDefault(_SignInFederated);
+
 var _ConfirmSignIn = require('./ConfirmSignIn');
 
 var _ConfirmSignIn2 = _interopRequireDefault(_ConfirmSignIn);

@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.AuthenticatorWrapper = exports.TOTPSetup = exports.FederatedButtons = exports.FederatedSignIn = exports.Greetings = exports.ForgotPassword = exports.VerifyContact = exports.ConfirmSignUp = exports.SignUp = exports.RequireNewPassword = exports.ConfirmSignIn = exports.SignIn = exports.AuthPiece = exports.Authenticator = undefined;
+exports.AuthenticatorWrapper = exports.TOTPSetup = exports.FederatedButtons = exports.FederatedSignIn = exports.Greetings = exports.ForgotPassword = exports.VerifyContact = exports.ConfirmSignUp = exports.SignUp = exports.RequireNewPassword = exports.ConfirmSignIn = exports.SignInFederated = exports.SignIn = exports.AuthPiece = exports.Authenticator = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -42,6 +42,19 @@ Object.defineProperty(exports, 'SignIn', {
     get: function () {
         function get() {
             return _interopRequireDefault(_SignIn)['default'];
+        }
+
+        return get;
+    }()
+});
+
+var _SignInFederated = require('./SignInFederated');
+
+Object.defineProperty(exports, 'SignInFederated', {
+    enumerable: true,
+    get: function () {
+        function get() {
+            return _interopRequireDefault(_SignInFederated)['default'];
         }
 
         return get;

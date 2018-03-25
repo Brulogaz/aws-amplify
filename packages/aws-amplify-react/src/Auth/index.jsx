@@ -19,6 +19,7 @@ import Authenticator from './Authenticator';
 export { default as Authenticator } from './Authenticator';
 export { default as AuthPiece } from './AuthPiece';
 export { default as SignIn } from './SignIn';
+export { default as SignInFederated } from './SignInFederated';
 export { default as ConfirmSignIn } from './ConfirmSignIn';
 export { default as RequireNewPassword } from './RequireNewPassword';
 export { default as SignUp } from './SignUp';

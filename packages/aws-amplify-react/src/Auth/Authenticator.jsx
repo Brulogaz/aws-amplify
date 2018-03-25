@@ -16,6 +16,7 @@ import Amplify, { Auth, Logger } from 'aws-amplify';
 
 import Greetings from './Greetings';
 import SignIn from './SignIn';
+import SignInFederated from './SignInFederated';
 import ConfirmSignIn from './ConfirmSignIn';
 import RequireNewPassword from './RequireNewPassword';
 import SignUp from './SignUp';
